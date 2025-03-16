@@ -1,0 +1,12 @@
+#periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 50px); /* 18 columns for the periodic table */
+    gap: 2px;
+}
+
+.div.element {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
